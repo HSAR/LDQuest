@@ -8,12 +8,6 @@ package LD.Bilko.LDQuest;
  *
  * @author Gordon
  */
-
-public class Quester {
+public class Quest {
     
-    public Quester(){
-        
-    }
-
-
 }
