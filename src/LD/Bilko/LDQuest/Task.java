@@ -4,15 +4,13 @@
  */
 package LD.Bilko.LDQuest;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Gordon
  */
-public class Quest {
-    public String Filename;
+public class Task {
     public String UUID;
-    public ArrayList<TaskGroup> TaskGroups;
+    public TaskGroup group;
+    public Quest quest;
     
 }

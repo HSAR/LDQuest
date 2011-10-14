@@ -10,9 +10,11 @@ import java.util.ArrayList;
  *
  * @author Gordon
  */
-public class Quest {
-    public String Filename;
+public class TaskGroup {
     public String UUID;
-    public ArrayList<TaskGroup> TaskGroups;
+    public Quest Quest;
+    public ArrayList<Task> Tasks;
+    public int Count;
+    
     
 }
