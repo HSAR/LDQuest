@@ -3,11 +3,29 @@
  * and open the template in the editor.
  */
 package LD.Bilko.LDQuest;
-
 /**
  *
- * @author Gordon
+ * @author Gordon McKendrick
  */
-public class LDQuest {
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+
+public class LDQuest extends JavaPlugin{
+    
+    //On plugin loaded
+    @Override
+    public void onEnable(){
+        //Load all players currently on the server
+        //Load all quests currently on the server
+    }
+    
+    //On plugin loaded
+    @Override
+    public void onDisable(){
+        
+    }
+    
+    
     
 }
