@@ -172,6 +172,17 @@ public class Quester {
      * Outputs
      ************************************/
     
+    public void sendMessage(){
+        
+    }
+    
+    public void doCheck(){
+        
+    }
+    
+    public void giveReward(){
+        
+    }
     
 
 }

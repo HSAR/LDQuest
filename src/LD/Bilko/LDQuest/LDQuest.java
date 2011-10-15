@@ -8,10 +8,14 @@ package LD.Bilko.LDQuest;
  * @author Gordon McKendrick
  */
 
+import LD.Bilko.LDQuest.API.LDQuestListener;
+import java.util.HashSet;
+import java.util.Set;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
 public class LDQuest extends JavaPlugin{
+    public static Set<LDQuestListener> listeners = new HashSet<LDQuestListener>();
     
     //On plugin loaded
     @Override

@@ -22,26 +22,50 @@ public class FileManager {
     
     private ArrayList<Quest> Quests = new ArrayList<Quest>();
     
+    /****************************************
+     * Constructors
+     ****************************************/
+    
     public FileManager(){
         
     }
 
-    public void Log(){
-        
-    }
-    public void loadPlayer(){
-        
-    }
+    
+    
+    /****************************************
+     * Logic and Delegation
+     ****************************************/
 
-    public void loadQuest(){
-        
-    }
-    public void loadConfig(){
-        
-    }
-    public void savePlayer(){
-        
+    
+    /****************************************
+     * Loading
+     ****************************************/
+    
+    public void loadPlayer(){
     }
 
     
+    public void loadQuest(){
+    }
+    
+    
+    public void loadConfig(){
+    }
+    
+    
+    /****************************************
+     * Saving
+     ****************************************/
+    
+    public void savePlayer(){
+        
+    }
+    
+    /****************************************
+     * Logging
+     ****************************************/
+    
+    public void Log(){
+        
+    }
 }

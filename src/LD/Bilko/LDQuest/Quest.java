@@ -5,6 +5,7 @@
 package LD.Bilko.LDQuest;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  *
@@ -14,5 +15,4 @@ public class Quest {
     public String Filename;
     public String UUID;
     public ArrayList<TaskGroup> TaskGroups;
-    
 }
